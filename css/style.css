@@ -3636,7 +3636,6 @@ body.lock {
   left: 0;
   position: absolute;
   right: 0;
-  z-index: -1;
   -webkit-backface-visibility: hidden;
   bottom: -20px;
   -webkit-transform: skewY(-1.5deg);
