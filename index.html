@@ -96,17 +96,17 @@
               <p class="provide-text">Maybe not everything, but we provide you some stuff.</p>
               <div class="provide-items">
                 <div class="provide-item">
-                  <div class="provide-item__img"><img src="img/graph.png" alt="graph"></div>
+                  <div class="provide-item__img"><img src="img/GRAPH.png" alt="graph"></div>
                   <div class="provide-item__title">Some Analytics</div>
                   <div class="provide-item__text">Aenean nisi lectus, convallis non lorem sit amet, rhoncus malesuada justo</div>
                 </div>
                 <div class="provide-item">
-                  <div class="provide-item__img"><img src="img/heart.png" alt="graph"></div>
+                  <div class="provide-item__img"><img src="img/HEART.png" alt="graph"></div>
                   <div class="provide-item__title">We provide you love</div>
                   <div class="provide-item__text">Aenean nisi lectus, convallis non lorem sit amet, rhoncus malesuada justo</div>
                 </div>
                 <div class="provide-item">
-                  <div class="provide-item__img"><img src="img/cloud.png" alt="graph"></div>
+                  <div class="provide-item__img"><img src="img/CLOUD.png" alt="graph"></div>
                   <div class="provide-item__title">And Some Cloud</div>
                   <div class="provide-item__text">Aenean nisi lectus, convallis non lorem sit amet, rhoncus malesuada justo</div>
                 </div>
@@ -133,10 +133,18 @@
               </div>
             </div>
             <form class="contact-form" id="form" action="feedback.php" method="post" name="feedback">
-              <input class="contact-form__name req" type="text" name="name" placeholder="Full Name">
-              <input class="contact-form__mail req email" type="email" name="email" placeholder="Email">
-              <input class="contact-form__phone" type="phone" name="phone" placeholder="Number">
-              <textarea name="text" placeholder="Write your Message here..."></textarea>
+              <label>
+                <input class="contact-form__name req" type="text" name="name" placeholder="Full Name">
+              </label>
+              <label>
+                <input class="contact-form__mail req email" type="email" name="email" placeholder="Email">
+              </label>
+              <label>
+                <input class="contact-form__phone" type="tel" name="phone" placeholder="Number">
+              </label>
+              <label>
+                <textarea name="text" placeholder="Write your Message here..."></textarea>
+              </label>
               <input class="contact-form__btn" type="submit" name="submit" value="Submit">
             </form>
           </div>
