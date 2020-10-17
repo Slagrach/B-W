@@ -3490,11 +3490,11 @@ body.lock {
 
 /* <city> */
 
-/*- -------------------- <sity-start> -------------------- -*/
+/*- -------------------- <city-start> -------------------- -*/
 
 .city {
-  background-image: -o-linear-gradient(45deg, #1d1d1d, #1d1d1d), url("../img/bg.png");
-  background-image: linear-gradient(45deg, #1d1d1d, #1d1d1d), url("../img/bg.png");
+  background-image: -o-linear-gradient(45deg, #1d1d1d, #1d1d1d), url("../img/Bg.png");
+  background-image: linear-gradient(45deg, #1d1d1d, #1d1d1d), url("../img/Bg.png");
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -3617,7 +3617,7 @@ body.lock {
   margin: 0 0 353px 0;
 }
 
-/*- -------------------- </sity-start> -------------------- -*/
+/*- -------------------- </city-start> -------------------- -*/
 
 /* <team> */
 
@@ -4220,8 +4220,8 @@ body.lock {
   }
 }
 @supports (-webkit-appearance:none){
-.city{background-image:-o-linear-gradient(45deg, #1d1d1d, #1d1d1d), url("../img/bg.webp")}
-.city{background-image:linear-gradient(45deg, #1d1d1d, #1d1d1d), url("../img/bg.webp")}
+.city{background-image:-o-linear-gradient(45deg, #1d1d1d, #1d1d1d), url("../img/Bg.webp")}
+.city{background-image:linear-gradient(45deg, #1d1d1d, #1d1d1d), url("../img/Bg.webp")}
 .provide{background-image:-o-linear-gradient(45deg, #181818, #181818), url("../img/bg2.webp")}
 .provide{background-image:linear-gradient(45deg, #181818, #181818), url("../img/bg2.webp")}
 .contact-form::after{background:rgba(51, 51, 51, 0.9) url("../img/txt.webp") center/300px no-repeat}
