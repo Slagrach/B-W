@@ -3493,8 +3493,8 @@ body.lock {
 /*- -------------------- <sity-start> -------------------- -*/
 
 .city {
-  background-image: -o-linear-gradient(45deg, #1d1d1d, #1d1d1d), url("../../img/bg.png");
-  background-image: linear-gradient(45deg, #1d1d1d, #1d1d1d), url("../../img/bg.png");
+  background-image: -o-linear-gradient(45deg, #1d1d1d, #1d1d1d), url("../img/bg.png");
+  background-image: linear-gradient(45deg, #1d1d1d, #1d1d1d), url("../img/bg.png");
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -3801,8 +3801,8 @@ body.lock {
 /*- -------------------- <provide-start> -------------------- -*/
 
 .provide {
-  background-image: -o-linear-gradient(45deg, #181818, #181818), url("../../img/bg2.png");
-  background-image: linear-gradient(45deg, #181818, #181818), url("../../img/bg2.png");
+  background-image: -o-linear-gradient(45deg, #181818, #181818), url("../img/bg2.png");
+  background-image: linear-gradient(45deg, #181818, #181818), url("../img/bg2.png");
   background-blend-mode: overlay;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -4101,7 +4101,8 @@ body.lock {
   width: 770px;
   height: 52px;
   border: solid 1px #999999;
-  font-family: "HNLTPro-Lt", sans-serif;
+  font-family: "HNLTPro-Lt",
+ sans-serif;
   font-size: 15px;
   line-height: 1.73;
   letter-spacing: 0.3px;
@@ -4141,7 +4142,7 @@ body.lock {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(51, 51, 51, 0.9) url("../../img/txt.png") center/300px no-repeat;
+  background: rgba(51, 51, 51, 0.9) url("../img/txt.png") center/300px no-repeat;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.5s ease 0s;
@@ -4220,11 +4221,11 @@ body.lock {
   }
 }
 @supports (-webkit-appearance:none){
-.city{background-image:-o-linear-gradient(45deg, #1d1d1d, #1d1d1d), url("../../img/bg.webp")}
-.city{background-image:linear-gradient(45deg, #1d1d1d, #1d1d1d), url("../../img/bg.webp")}
-.provide{background-image:-o-linear-gradient(45deg, #181818, #181818), url("../../img/bg2.webp")}
-.provide{background-image:linear-gradient(45deg, #181818, #181818), url("../../img/bg2.webp")}
-.contact-form::after{background:rgba(51, 51, 51, 0.9) url("../../img/txt.webp") center/300px no-repeat}
+.city{background-image:-o-linear-gradient(45deg, #1d1d1d, #1d1d1d), url("../img/bg.webp")}
+.city{background-image:linear-gradient(45deg, #1d1d1d, #1d1d1d), url("../img/bg.webp")}
+.provide{background-image:-o-linear-gradient(45deg, #181818, #181818), url("../img/bg2.webp")}
+.provide{background-image:linear-gradient(45deg, #181818, #181818), url("../img/bg2.webp")}
+.contact-form::after{background:rgba(51, 51, 51, 0.9) url("../img/txt.webp") center/300px no-repeat}
 }
 
  @media (max-width: 991.98px){
